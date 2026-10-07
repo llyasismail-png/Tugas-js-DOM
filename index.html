@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Daily Tasks</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="app">
+        <section class="card">
+
+            <header class="header">
+                <div>
+                    <p class="subtitle">To Do-list</p>
+                    <h1>Daftar Tugas</h1>
+                </div>
+
+                <div class="task-count">
+                    <span id="jumlahTugas">0</span>
+                    <small>Total Tugas</small>
+                </div>
+            </header>
+
+            <div class="input-area">
+                <input 
+                    type="text" 
+                    id="taskInput" 
+                    placeholder="Apa yang ingin kamu tulis?"
+                    autocomplete="off"
+                >
+
+                <button id="addTask">Tambah</button>
+            </div>
+
+            <ul id="taskList"></ul>
+
+            <p id="emptyMessage">
+                Belum ada tugas. Yuk, tambahkan tugas pertamamu!
+            </p>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
